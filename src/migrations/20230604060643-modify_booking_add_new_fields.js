@@ -38,6 +38,6 @@ module.exports = {
      * await queryInterface.dropTable('users');
      */
     await queryInterface.removeColumn('Bookings', 'noOfSeats');
-    await queryInterface.removeColumn('Booking', 'totalCost');
+    await queryInterface.removeColumn('Bookings', 'totalCost');
   }
 };
