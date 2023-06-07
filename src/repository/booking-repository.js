@@ -17,7 +17,6 @@ class BookingRepository {
             'There was some issue creating the booking, please try again later',
              StatusCodes.INTERNAL_SERVER_ERROR);
       
-       
          }
     }
     
